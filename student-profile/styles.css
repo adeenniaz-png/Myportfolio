@@ -1,0 +1,200 @@
+/* Page Background */
+body {
+  background-color: #f0f2f5;
+  color: #333;
+  font-family: Arial, sans-serif;
+}
+
+/* Navigation */
+.custom-nav {
+  background-color: #212529;
+}
+
+/* Hero Section */
+.custom-header {
+  background-color: #8f268b;
+  padding: 50px 0;
+}
+
+.hero-text {
+  max-width: 650px;
+  margin-bottom: 20px;
+}
+
+/* Hero Profile Image */
+.profile-image {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: none;
+  box-shadow: none;
+}
+
+/* Content Cards */
+.content-card {
+  background-color: white;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 25px;
+}
+
+/* Heading Spacing */
+h1, h2, h3 {
+  margin-bottom: 15px;
+}
+
+/* Paragraph Style */
+p {
+  line-height: 1.6;
+}
+
+/* Skills Badges */
+.skill-badge {
+  background-color: #4d1a4f;
+  color: white;
+  font-size: 15px;
+  margin: 4px;
+  padding: 10px 14px;
+  border-radius: 6px;
+  display: inline-block;
+}
+
+/* Experience */
+.experience-item {
+  border-left: 4px solid #4d1a4f;
+  padding-left: 15px;
+  margin-bottom: 20px;
+}
+
+/* Project Cards */
+.project-card {
+  border: 1px solid #e2e8f0;
+  border-radius: 6px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Project Card Hover */
+.project-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px);
+}
+
+/* Interest Boxes */
+.interest-box {
+  background-color: #f8f9fa;
+  border: 1px solid #e2e8f0;
+  border-radius: 6px;
+  padding: 20px;
+  height: 100%;
+}
+
+/* Button */
+.btn-primary {
+  background-color: #4d1a4f;
+  border-color: #4d1a4f;
+}
+
+/* Button Hover */
+.btn-primary:hover {
+  background-color: #381239;
+  border-color: #381239;
+}
+
+/* Custom Link */
+.custom-link {
+  color: #237A56;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+/* Link Hover */
+.custom-link:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+.custom-footer {
+  background-color: #212529;
+}
+
+.custom-footer a {
+  color: white;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+.custom-footer a:hover {
+  text-decoration: underline;
+}
+
+/* ================= Assignment 2 additions ================= */
+
+/* Red error messages */
+.error-text {
+  color: #dc3545;
+  font-size: 14px;
+  margin-top: 4px;
+}
+
+/* Green success message */
+.success-text {
+  color: #198754;
+  font-weight: 600;
+}
+
+/* "Showing X of Y projects" and loading text */
+.count-text {
+  color: #555;
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+
+/* "No projects found." */
+.no-projects {
+  color: #dc3545;
+  font-weight: 600;
+}
+
+/* Long words in cards must not cause sideways scrolling */
+.project-card .card-body {
+  overflow-wrap: anywhere;
+}
+
+/* ================= Mobile Responsive ================= */
+@media (max-width: 768px) {
+  .custom-header {
+    padding: 40px 15px;
+  }
+
+  .custom-header h1 {
+    font-size: 30px;
+  }
+
+  .custom-header h4 {
+    font-size: 18px;
+  }
+
+  .custom-header p {
+    font-size: 14px;
+  }
+
+  .profile-image {
+    width: 150px;
+    height: 150px;
+  }
+
+  .content-card {
+    padding: 20px 15px;
+  }
+
+  .project-card,
+  .interest-box {
+    margin-bottom: 20px;
+  }
+
+  .custom-footer a {
+    display: inline-block;
+    margin: 5px;
+  }
+}

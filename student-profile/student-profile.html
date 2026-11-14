@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Adeen Niaz - Personal Portfolio</title>
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<!-- Custom CSS -->
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark custom-nav sticky-top">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#">Adeen Niaz</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+        <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+        <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="#interests">Interests</a></li>
+        <li class="nav-item"><a class="nav-link" href="#posts">Latest Posts</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<header id="home" class="custom-header text-white py-5">
+  <div class="container">
+    <div class="row align-items-center text-center text-md-start">
+      <div class="col-md-4 text-center mb-3 mb-md-0">
+        <img src="profile.jpg" alt="Adeen Niaz Profile" class="profile-image">
+      </div>
+      <div class="col-md-8">
+        <h1 class="display-4 fw-bold">Adeen Niaz</h1>
+        <h4 class="mb-3">BSIT Student &amp; Web Technology Learner</h4>
+        <p class="hero-text ms-0">
+          I am a BSIT student at International Islamic University Islamabad
+          learning web development and modern technologies.
+        </p>
+        <div>
+          <a href="#projects" class="btn btn-light me-md-2 mb-2">View My Work</a>
+          <a href="#contact" class="btn btn-outline-light mb-2">Contact Me</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main class="container my-5">
+
+  <!-- About & Skills -->
+  <div class="row mb-5">
+    <div class="col-md-6 mb-4 mb-md-0">
+      <section id="about" class="content-card h-100">
+        <h2>About Me</h2>
+        <p>I am a BSIT student at International Islamic University Islamabad. I enjoy learning websites, programming, databases and modern technologies.</p>
+        <p>Currently I am improving my skills in HTML, CSS, Bootstrap, Java, SQL and React.</p>
+        <p>My goal is to become a professional software developer and continue learning new technologies through projects and internships.</p>
+        <a href="https://www.iiu.edu.pk" target="_blank" class="custom-link">Visit IIUI Official Website</a>
+      </section>
+    </div>
+    <div class="col-md-6">
+      <section id="skills" class="content-card h-100">
+        <h2>My Skills</h2>
+        <p>Technologies and programming languages I work with:</p>
+        <div class="mt-3">
+          <span class="badge skill-badge">HTML5</span>
+          <span class="badge skill-badge">CSS3</span>
+          <span class="badge skill-badge">Bootstrap 5</span>
+          <span class="badge skill-badge">Java</span>
+          <span class="badge skill-badge">SQL</span>
+          <span class="badge skill-badge">React</span>
+          <span class="badge skill-badge">C++</span>
+          <span class="badge skill-badge">JavaScript</span>
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <!-- Education -->
+  <section id="education" class="content-card mb-5">
+    <h2>Education</h2>
+    <div class="table-responsive">
+      <table class="table table-bordered table-striped">
+        <caption>Educational Qualification</caption>
+        <thead class="table-dark">
+          <tr><th>Qualification</th><th>Institute</th><th>Field</th><th>Status</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>BS Information Technology</td><td>International Islamic University Islamabad</td><td>BSIT</td><td>Continue</td></tr>
+          <tr><td>Intermediate</td><td>Your College Name</td><td>ICS</td><td>Completed</td></tr>
+          <tr><td>Matric</td><td>Your School Name</td><td>Science</td><td>Completed</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience" class="content-card mb-5">
+    <h2>Experience</h2>
+    <div class="experience-item">
+      <h5>University Projects</h5>
+      <p>Developed web pages using HTML, CSS and Bootstrap.</p>
+    </div>
+    <div class="experience-item">
+      <h5>Programming Practice</h5>
+      <p>Worked on Java, SQL and C++ lab tasks.</p>
+    </div>
+    <div class="experience-item">
+      <h5>Learning React</h5>
+      <p>Currently learning React and Spring Boot.</p>
+    </div>
+  </section>
+
+  <!-- Projects (generated by JavaScript) -->
+  <section id="projects" class="mb-5">
+    <h2 class="mb-4">My Projects</h2>
+
+    <!-- Add project form -->
+    <div class="content-card mb-4">
+      <h5 class="mb-3">Add a New Project</h5>
+      <div class="row g-2">
+        <div class="col-md-4">
+          <input type="text" id="projectTitle" class="form-control" placeholder="Project title">
+        </div>
+        <div class="col-md-6">
+          <input type="text" id="projectDesc" class="form-control" placeholder="Project description">
+        </div>
+        <div class="col-md-2 d-grid">
+          <button type="button" id="addProjectBtn" class="btn btn-primary">Add Project</button>
+        </div>
+      </div>
+      <div id="projectMsg" class="error-text mt-2"></div>
+    </div>
+
+    <!-- Search -->
+    <input type="text" id="searchBox" class="form-control mb-2" placeholder="Search projects by title...">
+    <p id="projectCount" class="count-text"></p>
+
+    <!-- Project cards -->
+    <div class="row" id="projectList"></div>
+    <p id="noProjects" class="no-projects d-none">No projects found.</p>
+  </section>
+
+  <!-- Interests -->
+  <section id="interests" class="content-card mb-5">
+    <h2>My Interests</h2>
+    <div class="row">
+      <div class="col-md-4 mb-3">
+        <div class="interest-box"><h5>Web Development</h5><p>Creating responsive websites.</p></div>
+      </div>
+      <div class="col-md-4 mb-3">
+        <div class="interest-box"><h5>Programming</h5><p>Solving programming problems.</p></div>
+      </div>
+      <div class="col-md-4 mb-3">
+        <div class="interest-box"><h5>Technology</h5><p>Learning modern software tools.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Latest Posts (loaded from API) -->
+  <section id="posts" class="mb-5">
+    <h2 class="mb-4">Latest Posts</h2>
+    <p id="postsStatus" class="count-text"></p>
+    <div class="row" id="postsList"></div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="content-card mb-5">
+    <h2>Contact Me</h2>
+    <form id="contactForm" novalidate>
+      <div class="mb-3">
+        <label class="form-label" for="fullName">Full Name</label>
+        <input type="text" id="fullName" class="form-control">
+        <div id="nameError" class="error-text"></div>
+      </div>
+      <div class="mb-3">
+        <label class="form-label" for="email">Email</label>
+        <input type="text" id="email" class="form-control">
+        <div id="emailError" class="error-text"></div>
+      </div>
+      <div class="mb-3">
+        <label class="form-label" for="mobile">Mobile Number</label>
+        <input type="text" id="mobile" class="form-control" placeholder="0300-1234567">
+        <div id="mobileError" class="error-text"></div>
+      </div>
+      <div class="mb-3">
+        <label class="form-label" for="message">Message</label>
+        <textarea id="message" class="form-control" rows="5"></textarea>
+        <div id="messageError" class="error-text"></div>
+      </div>
+      <button type="submit" class="btn btn-primary">Send Message</button>
+      <div id="formSuccess" class="success-text mt-3"></div>
+    </form>
+  </section>
+</main>
+
+<!-- Footer -->
+<footer class="custom-footer text-center text-white py-4">
+  <div class="container">
+    <h5>Adeen Niaz</h5>
+    <p>BSIT | International Islamic University Islamabad</p>
+    <a href="#home" class="text-white mx-2">Home</a>
+    <a href="#projects" class="text-white mx-2">Projects</a>
+    <a href="#contact" class="text-white mx-2">Contact</a>
+    <a href="#home" class="text-white mx-2">Back To Top</a>
+    <p class="mt-3 mb-0">&copy; 2026 Adeen Niaz</p>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>M
